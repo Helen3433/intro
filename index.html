@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人财务管理小程序</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">财务管理</div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能介绍</a></li>
+                <li><a href="#download">下载</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首页介绍 -->
+    <section id="home" class="section">
+        <div class="content">
+            <h1>简单的财务管理小程序</h1>
+            <p>帮你轻松记录、管理支出和收入，随时查看统计信息！</p>
+            <a href="#features" class="btn">了解更多</a>
+        </div>
+        <img src="images/logo.png" alt="小程序 logo" class="hero-image">
+    </section>
+
+    <!-- 功能介绍 -->
+    <section id="features" class="section bg-light">
+        <h2>主要功能</h2>
+        <div class="features-container">
+            <div class="feature">
+                <img src="images/轻松记录.png" alt="功能截图">
+                <h3>轻松记录</h3>
+                <p>简单记录日常支出和收入，一目了然。</p>
+            </div>
+            <div class="feature">
+                <img src="images/统计功能.png" alt="统计功能">
+                <h3>数据统计</h3>
+                <p>详细统计数据，帮助你管理每月开支。</p>
+            </div>
+            <div class="feature">
+                <img src="images/reports.png" alt="报表功能">
+                <h3>生成报表</h3>
+                <p>一键生成报表，轻松查看年度财务情况。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 下载与使用 -->
+    <section id="download" class="section">
+        <h2>下载与使用</h2>
+        <p>扫描下方二维码，立即体验小程序：</p>
+        <img src="images/qr-code.png" alt="小程序二维码" class="qr-code">
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section bg-light">
+        <h2>联系我们</h2>
+        <p>如果您有任何问题或建议，请通过以下方式与我们联系：</p>
+        <form action="#" method="post" class="contact-form">
+            <input type="text" name="name" placeholder="您的姓名" required>
+            <input type="email" name="email" placeholder="您的邮箱" required>
+            <textarea name="message" placeholder="您的留言" required></textarea>
+            <button type="submit" class="btn">发送</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 个人财务管理小程序. 版权所有.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
